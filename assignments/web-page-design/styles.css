@@ -1,0 +1,56 @@
+:root {
+  --background: #eef8ff;
+  --text: #12263f;
+  --accent: #3b82f6;
+  --button-bg: #3b82f6;
+  --button-hover: #2563eb;
+  --card-bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.page-header,
+.page-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.intro {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin: 1rem auto;
+  max-width: 720px;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+}

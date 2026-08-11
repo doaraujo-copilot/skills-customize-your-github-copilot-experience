@@ -41,6 +41,13 @@
       ]
     },
     {
+      "id": "web-page-design",
+      "title": "Web Page Design",
+      "description": "Build a simple interactive web page using HTML, CSS, and JavaScript.",
+      "path": "assignments/web-page-design",
+      "dueDate": "2026-08-05"
+    },
+    {
       "id": "data-analysis",
       "title": "Data Analysis",
       "description": "Basics of data analysis: loading, exploring, and visualizing data in Python.",
